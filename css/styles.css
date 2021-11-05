@@ -111,6 +111,40 @@ hr
 	border-top: none;
 	margin: 100px auto;
 }
+
+/*CSS stylin for the Contact Me Page*/
+
+	.forma
+	{
+		    display: block;
+    width: 45%;
+    padding: 0.375rem
+0.75rem
+;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1 solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	margin-left: 27.5%;
+	}
+	
+	.yourMessage{
+		
+		    padding: 0.375rem 0.75rem;
+			border: 1 solid #ced4da;
+			border-radius: 0.25rem;
+			transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+		
+	}
+	
+	#sub-button{
+		margin-top:2%;
+	}
+
 /*.btn {
    background: #3D94F6;
    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
