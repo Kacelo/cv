@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Contact Me</title>
-<meta charset="utf-8">
+	<title>Contact Me</title>
+
+	<!--BootStrap 4 Links-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset="utf-8">
 </head>
 <body>
-<h1>CONTACT DETAILS</h1>
-<p>email address:<a href="vernonkachelo@gmail.com">vernonkachelo@gmail</a></p>
-<p>Phone Number: 0814380939</p>
-<form class="" action="mailto:vernonkachelo@gmail.com" method="post" enctype="text/plain">
-<label> Your Name:</label>
-<input type="text" name="yourName" value="" ><br>
-<label>Your Email:</label>
-<input type="email" name="yourEmail" value="" ><br>
-<label>Your Message:</label>
-<textarea name="yourMassage" rows="8" cols="80"></textarea><br>
-<input type="submit" name=""  >
-</form>
-</body>
+	<h1>CONTACT DETAILS</h1>
+	<p>email address:<a href="vernonkachelo@gmail.com">vernonkachelo@gmail</a></p>
+	<p>Phone Number: 0814380939</p>
+	<form class="" action="mailto:vernonkachelo@gmail.com" method="post" enctype="text/plain">
+		<!--<label for="yourName"> Your Name:</label>-->
+		<input type="text" id="yourName" value="" class="form-control forma" placeholder="Your Name" required><br>
+		<!--<label for="yourEmail">Your Email:</label>-->
+		<input type="email" id="yourEmail" value="" class="form-control forma" placeholder="Your Email" required><br>
+		<!--<label for="yourMessage">Your Message:</label>-->
+		<textarea class="yourMassage" rows="8" cols="80" placeholder="Your Message"></textarea><br>
+		<button class = "btn btn-primary" type="submit" id="sub-button"  >Submit</button>
+	</form>
+
+
+
+<!--BootStap Scripts-->
+<script defer src = "https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </html>
